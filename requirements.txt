@@ -1,0 +1,5 @@
+brotli
+pycryptodome
+pyserpent
+twofish
+argon2-cffi
