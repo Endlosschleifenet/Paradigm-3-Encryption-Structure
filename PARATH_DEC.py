@@ -16,7 +16,7 @@ Decryption script with:
 - Triple-layer decryption: Serpent-CBC → Twofish-CBC → AES-GCM
 - Removal of random padding using length prefix
 - UTF-8 decoding
-- Triple decompression: brotli after decryption
+- Single decompression: brotli after decryption
 """
 
 import hashlib
