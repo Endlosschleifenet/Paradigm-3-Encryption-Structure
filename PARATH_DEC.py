@@ -32,6 +32,7 @@ import os
 import binascii
 import hmac
 
+# ======== CONFIG ========
 SALT_LEN    = 16
 AES_KEY_LEN = 32
 AES_IV_LEN  = 12
