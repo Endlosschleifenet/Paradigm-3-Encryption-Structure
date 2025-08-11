@@ -34,20 +34,22 @@ import gc
 import time
 
 # ======== CONFIG ========
-
-SALT_LEN = 16
+"""
+Config should match in both ENC/DEC scripts.
+"""
+SALT_LEN    = 16
 AES_KEY_LEN = 32
-AES_IV_LEN = 12
+AES_IV_LEN  = 12
 AES_TAG_LEN = 16
-TF_KEY_LEN = 32
-TF_IV_LEN = 16
-SP_KEY_LEN = 32
-SP_IV_LEN = 16
+TF_KEY_LEN  = 32
+TF_IV_LEN   = 16
+SP_KEY_LEN  = 32
+SP_IV_LEN   = 16
 HMAC_KEY_LEN = 64
 
-ARGON_MEM_COST = 2**21
-ARGON_TIME_COST = 12
-ARGON_PARALLELISM = min(os.cpu_count() or 1, 8)
+ARGON_MEM_COST = 2**18 # Measured in MB
+ARGON_TIME_COST = 8
+ARGON_PARALLELISM = min(os.cpu_count() or 1,8) # Automatically Detects how many threads to use, defaults to 1; maxes at 8
 HASH_LEN = 64
 
 PALETTE_3 = [
@@ -55,6 +57,7 @@ PALETTE_3 = [
     '\u200C',  # ZERO WIDTH NON-JOINER
     '\u200D',  # ZERO WIDTH JOINER
 ]
+# ========================
 
 def bytes_to_ternary_chars(data: bytes) -> str:
     ternary_digits = []
