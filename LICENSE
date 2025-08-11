@@ -12,8 +12,7 @@
   Permission is hereby granted, free of charge, to any person obtaining
   a copy of this software and associated documentation files (the
   "Software"), to use, copy, modify, merge, publish, distribute,
-  sublicense, and/or sell copies of the Software, subject to the
-  following conditions:
+  sublicense, subject to the following conditions:
 
   1. Redistribution and Use
 
@@ -29,11 +28,20 @@
         removals made relative to the original Software.
 
      d. Redistributions and derivative works must be licensed under the
-        same Paradigm 3 Software License (CLOAKER Edition) Version 1.0.
+        same Paradigm Software License Version 1.0.
 
      e. The project name "Paradigm 3" and codename "CLOAKER" shall not be
         removed, altered, or used in derivative project names without
         explicit written permission from the copyright holder.
+
+     g. Redistributions and derivative works shall include the name of the
+        copyright holder.
+
+     h. Redistribution and use of the Software, in source or binary form, 
+        with or without modification, are permitted solely for non-commercial 
+        purposes. Selling or commercial distribution of the Software or 
+        derivative works is prohibited including with explicit prior written
+        consent from the copyright holder.
 
   2. Patent Grant
 
@@ -45,8 +53,8 @@
   3. Contributor Agreement
 
      a. By submitting contributions to the Software, you agree that your
-        contributions are licensed under this Paradigm 3 Software License
-        (CLOAKER Edition) Version 1.0.
+        contributions are licensed under this Paradigm Software License
+        Version 1.0.
 
      b. Contributions must not infringe any third-party intellectual
         property rights.
@@ -56,10 +64,11 @@
 
   4. Trademark and Name Use
 
-     The trademarks, service marks, and trade names "Paradigm 3" and
-     "CLOAKER" are owned by Fenix T. and may not be used to endorse or
-     promote products derived from this Software without prior written
-     permission.
+     The trademarks, service marks, and trade names "Paradigm" and "Paradigm 3" 
+     are the exclusive property of Fenix T. They may not be used, reproduced, 
+     or referenced in any manner that suggests endorsement, promotion, or 
+     affiliation with any products or derivative works based on this Software 
+     without prior written consent from Fenix T.
 
   5. Disclaimer of Warranty
 
